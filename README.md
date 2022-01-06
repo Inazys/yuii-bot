@@ -53,6 +53,24 @@ You need these thing
 [FFmpeg](https://www.ffmpeg.org) to process audio
 
 [Node JS](https://nodejs.org/en/) (v16)
+**Node.js 16.6.0 or newer is required.**  
+
+```sh-session
+npm install discord.js
+yarn add discord.js
+pnpm add discord.js
+```
+### Install **[discord-player](https://npmjs.com/package/discord-player)**
+
+```sh
+$ npm install --save discord-player
+```
+
+### Install **[@discordjs/opus](https://npmjs.com/package/@discordjs/opus)**
+
+```sh
+$ npm install --save @discordjs/opus
+```
 
 Also after download use ```js
 npm i``` to install all dependencies
