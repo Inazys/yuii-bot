@@ -8,7 +8,9 @@
 
 ### Yuii Bot
 
-A very cool music bot made by inazys\nA complete code to download for a music bot
+A very cool music bot made by inazys
+
+A complete code to download for a music bot
 
 ### ⚡ Configuration
 
