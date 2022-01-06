@@ -5,9 +5,12 @@
   </p>
   <br />
 </div>
-# yuii-bot
+
+### yuii-bot
+
 A very cool music bot made by inazys
 A complete code to download for a music bot
+
 ### ⚡ Configuration
 
 Open the configuration file `config.js`.
