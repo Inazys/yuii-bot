@@ -1,3 +1,10 @@
+<div align="center">
+  <br />
+  <p>
+    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
+  </p>
+  <br />
+</div>
 # yuii-bot
 A very cool music bot made by inazys
 A complete code to download for a music bot
