@@ -72,5 +72,5 @@ $ npm install --save discord-player
 $ npm install --save @discordjs/opus
 ```
 
-Also after download use ```js
+Also after download use ```
 npm i``` to install all dependencies
