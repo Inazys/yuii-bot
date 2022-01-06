@@ -1,6 +1,9 @@
 const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
 const { DiscordTogether } = require('discord-together');
+/*
+Please remember to use npm i to install all dependencies and the bot will work
+*/
 
 global.client = new Client({
     intents: [
