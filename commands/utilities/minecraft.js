@@ -1,4 +1,4 @@
-const invite = "https://discord.gg/gdnUzXekqT"
+const invite = "YOURINV"
 module.exports = {
     name: 'minecraft',
     aliases: ['mc'],
