@@ -24,7 +24,7 @@ module.exports = {
                 url: '',
             },
             thumbnail: {
-                url: message.guild.iconURL({dynamic: true, format: "png"}),
+                url: message.guild.iconURL({dynamic: true, format: "png", size: 4096}),
             },
             fields: [
                 {
