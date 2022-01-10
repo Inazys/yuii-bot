@@ -1,3 +1,4 @@
+const { MessageEmbed } = require('discord.js');
 module.exports = (client, message) => {
     if (message.author.bot || message.channel.type === 'dm') return;
 
@@ -30,7 +31,17 @@ module.exports = (client, message) => {
         try {
             cmd.execute(client, message, args);
         } catch (err) {
-            message.channel.send("err")
+            const errchannel = client.channels.cache.get("930114193175236698");
+            const errembed = new MessageEmbed()
+            .setColor("RED")
+            .setDescription("An **Error** happened while trying to run this command, the error have been sent to the Dev")
+            message.channel.send({embeds: [errembed]})
+            const sent = new MessageEmbed()
+            .setTitle("Error encountered!")
+            .setColor("RED")
+            .setDescription(`\`\`\`${err}\`\`\``)
+            .addField('From command', `${cmd.name}.js`)
+            errchannel.send({embeds: [sent]})
             console.log(err)
         }
     }
