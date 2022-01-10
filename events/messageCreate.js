@@ -26,5 +26,12 @@ module.exports = (client, message) => {
         if (message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send(`You are not in the same voice channel ${message.author}... try again ? ❌`);
     }
 
-    if (cmd) cmd.execute(client, message, args);
+    if (cmd) {
+        try {
+            cmd.execute(client, message, args);
+        } catch (err) {
+            message.channel.send("err")
+            console.log(err)
+        }
+    }
 };
